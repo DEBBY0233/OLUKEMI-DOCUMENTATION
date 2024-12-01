@@ -58,6 +58,39 @@ The data used on excel was also imported to power Bi through the following steps
 
 The following analysis was done on excel using the excel formulas and functions
 
+- To calculate the Subscription Duration
+```
+=F2-E2
+```
+- Total Revenue
+```
+=SUM(H2:H33788)
+```
+- Average Revenue
+```
+=AVERAGE(H2:H33788)
+```
+- Average Subscription Duration
+```
+=AVERAGE(I2:I33788)
+```
+- Total Revenue per Region
+```
+=SUMIF(C2:C33788,"Region",H2:H33788)
+```
+- Average Subscription per Region
+```
+=AVERAGEIF(C2:C33788,"EAST",H2:H33788)
+```
+- Total Revenue by Subscription Type
+```
+=SUMIF(D2:D33788,"subscriptiontype",H2:H33788)
+```
+- Average Revenue by Subscription Type
+```
+=AVERAGEIF(D2:D33788,"subscriptiontype",H2:H33788)
+```
+
 ## POWER BI VISUALS
 ![image](https://github.com/user-attachments/assets/f60e281c-5798-4a4e-94df-394239d866af)
 
